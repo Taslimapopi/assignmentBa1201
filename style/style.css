@@ -126,3 +126,46 @@
 .user-comment{
     margin: 0 5px;
 }
+.get-in-touch{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1140px;
+    height: 630px;
+    align-items: center;
+}
+
+.touch-title{
+    font-size: 97px;
+    font-weight: bold;
+    text-align: left;
+    max-width: 530px;
+    min-height: 235px;
+}
+
+
+.form-part{
+    display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+}
+
+
+.media{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+}
+.footer-section{
+    max-width: 530px;
+    height: 230px;
+    margin: 0 auto;
+    text-align: center;
+}
