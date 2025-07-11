@@ -3,7 +3,7 @@
    header{
     max-width: 1440px;
     height: 700px;
-    background-image: url(../Assets/Hero-bg.png) ;
+    background-image: url(../image/Hero-bg.png) ;
     background-repeat: no-repeat;
     background-size: cover;
    }
@@ -168,19 +168,25 @@ ul a{
     height: 230px;
     margin: 0 auto;
     text-align: center;
+    align-items: center;
+    margin:0px 400px;
 }
  .reviews{
     max-width: 1140px;
     height: 342;
+    margin: 0px 150px 0px 150px;
  }
 .all-reviews{
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    margin: 0 auto;
+    margin: 50px 0 0 0;
 }
 
 .img-section{
     display: flex;
+}
+.review-title{
+    text-align: center;
 }
 
